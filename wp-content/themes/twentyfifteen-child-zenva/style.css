@@ -1,0 +1,719 @@
+/*
+Theme Name: Twenty Fifteen Child Zenva
+Theme URI: https://wordpress.org/themes/twentyfifteen
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0
+Template:     twentyfifteen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url("../twentyfifteen/style.css");
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+ 
+#page {
+    max-width: 100%;
+}
+
+.wp-post-image {
+    width:100%;
+}
+
+.post-thumbnail {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+#footer-sidebar {
+    padding: 2em;
+}
+
+#footer-sidebar  li {
+    color: rgba(51, 51, 51, 0.7);
+    list-style-type: none;
+    font-size: 16px;
+    padding-bottom: 7.5px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+}
+
+/* Home screen */
+.zva-thumb-small img {
+    width: 100%;
+}
+
+.zva-posts-section {
+    margin-right: 8.4%;
+    margin-left: 8.4%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.zva-thumb-small {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.zva-home-block {
+    background-color: white;
+    padding: 15px;
+    line-height: 25px;
+    position: relative;
+}
+
+.zva-home-block p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.zva-home-block .more-link {
+    background-color: #009D85;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+}
+
+div#disqus_thread {
+	padding: 3% 10%;
+	background-color: white;
+	box-shadow: 0 0 1px rgba(0,0,0,0.15);
+}
+
+@media screen and (min-width: 59.6875em) {
+    
+    #top-area {
+        height: 66px;
+    }
+    
+    .zva-home-block {
+        width: 49.4%;
+        height: 450px;
+        margin-top: 20px;
+        display: inline-block;
+        vertical-align: top;
+    }     
+    
+    .sidebar {
+        position: fixed;
+        overflow: hidden;
+/*        overflow-x: hidden;*/
+    }
+    
+    .sidebar::-webkit-scrollbar {
+        width: 0px;  /* remove scrollbar space */
+        background: transparent;  /* optional: just make scrollbar invisible */
+    }
+    
+    div#disqus_thread {
+            margin: 3% 8.5%;
+    }       
+}
+
+@media (max-width: 59.6875em) {
+
+    .zva-home-block {
+        width: 100%;
+        height: 420px;
+        margin-top: 10px;
+    }
+    
+    div#disqus_thread {
+            margin: 3% 7.5%;
+    }
+    
+    /* hide tag cloud on phones*/
+    .entry-footer {
+        display: none;
+    }
+    
+    /* hide disqus */
+    #disqus_thread {
+        display: none;
+    }
+    
+    /*hide crayon toolbar */
+    .crayon-toolbar {
+        display: none;
+    }
+    
+    /* smaller logo */
+    .zva_logo {
+        margin-left: 20px;
+        height: 40px;
+    }
+    
+    #masthead {
+        padding: 10px;
+    }
+    
+    /* smaller post featured img */        
+    .post-thumbnail img{
+        display: none;
+        overflow:no-content;
+    }
+    
+    .post-thumbnail {
+        display: none;        
+    }
+    
+    .post {
+        padding-top: 20px;
+    }
+    
+    .site-main {
+        padding: 0%;
+    }
+}
+
+.page-header {
+    background-color: #0070BB;
+    color: white;
+}
+
+@media screen and (min-width: 38.75em) {
+    .page-header {
+      border-left: 7px solid #0070BB;
+      padding: 1% 8.3333%!important;
+      margin-right: 9.4%!important;
+    }
+    
+    .site-branding {
+        min-height: 1px;
+    }
+}
+
+body {
+    background: #cccdce;
+    font-family: 'Open Sans';
+    font-size: 22px;
+}
+
+.page-title {
+   font-family: 'Open Sans'; 
+   text-transform: uppercase;
+}
+
+.zva-home-post-title {
+}
+
+@media screen and (min-width: 59.6875em) and (max-width: 1250px) {
+    .zva-home-block {
+        height: 460px
+    }
+}
+
+@media screen and (max-width: 739px) {
+    .site-branding {
+        min-height: 1px;
+    }
+}
+
+.zva-home-read-more {
+    position: absolute;
+    bottom: 10px;
+    right: 16px;
+    color: white;
+    background-color: #784491;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+    margin-left: -50px;
+}
+
+.entry-title {
+    font-family: 'Open Sans';
+}
+
+.entry-content {
+    font-family: 'Open Sans';
+    font-size: 22px;
+}
+
+/*share icons*/
+.share-area {
+    border-bottom: 0px;
+}
+.share-link {
+    font-family: Genericons;
+    font-size: 200%;
+    text-decoration: none;
+    border: 0;
+    margin-right: 14px;
+}
+
+.author-info {
+    padding: 5% 0px;
+}
+
+.crayon-syntax-inline {
+    white-space: nowrap;
+}
+
+img.alignleft {
+	margin: 0.4em 1.6em 1em 0;
+}
+
+/* line spacing */
+br {
+    margin-bottom: 1.6842em;
+}
+
+/* zenva modal */
+#zva-modal-area {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: none;
+}
+
+#zva-modal-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity: 0.5;
+    z-index: 98;
+}
+
+.zva-modal-main-event {
+    height: 620px;
+}
+
+#zva-modal {
+    position: absolute;
+    width: 560px;    
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 30px;
+    background-color: white;
+    color: black;
+    opacity: 1;
+    z-index: 99;
+}
+
+#zva-modal h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#zva-modal p {
+    font-size: 70%;
+}
+
+#zva-modal-go {
+    float: left;
+    font-size: 1.6rem;
+    padding: 0.8125em 1.625em;
+    line-height: normal;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+    font-style: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+
+#zva-modal-close {    
+    float: left;
+    margin-top: 12px;
+    margin-left: 18px;
+    font-size: 40%;
+    background-color: #949699;
+}
+
+#zva-modal-signup-close {    
+    float: left;
+    margin-top: 12px;
+    margin-left: 18px;
+    font-size: 10px;
+    background-color: #949699;
+}
+
+/* side menu */
+@media screen and (min-width: 59.6875em) {
+    .site-header {
+        background-color: transparent;
+        border-bottom: 0;
+        margin: 8% 0;
+        padding: 0 20%;
+    }
+    
+    .main-navigation {
+        margin: 0 20% 10%;
+    }
+    
+    .social-navigation {
+        margin: 0 20% 10%;
+    }
+    
+    .widget {
+        margin: 0 0 15%;
+    }
+
+    .site-main {
+        padding: 1% 0;
+    }    
+}
+/* end side menu */
+
+/* ads */
+.zva-top-ad-banner {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 500px) {
+    .zva_adsense_top {
+        width: 320px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .zva_adsense_top {
+        width: 468px;
+        height: 60px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 956px) {
+    .zva-top-ad-banner {
+            margin-bottom: 0.5%;
+        }
+}
+
+@media screen and (min-width: 1060px) {
+    .zva_adsense_top {
+        width: 728px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 956px) {
+    .zva-side-ad-banner {
+            display: none!important;
+        }
+}
+/* end ads */
+
+/* top header menu */
+@media (min-width: 59.6875em) {
+    .top-navigation {
+            margin: 0 auto;
+            width: 100%;
+            min-height: 45px;
+            position: relative;
+            float:right;
+            padding: 4px 5%;
+    }
+
+    ul.top-nav-menu,
+    div.top-nav-menu > ul {
+            margin: 0;
+            padding: 0 40px 0 0;
+    }
+
+    .top-nav-menu li {
+            display: inline-block;
+            position: relative;
+    }
+
+    .top-nav-menu li a {
+            color: white;
+            display: block;
+            line-height: 1.5;
+            padding: 15px 16px;
+            text-decoration: none;
+    }
+
+    .top-nav-menu li:hover > a,
+    .top-nav-menu li a:hover,
+    .top-nav-menu li:focus > a,
+    .top-nav-menu li a:focus {
+            background-color: rgba(154,154,154,0.8);
+            color: white;
+    }
+
+    .top-nav-menu .sub-menu,
+    .top-nav-menu .children {
+            background-color: rgba(154,154,154,0.8);
+            border-top: 0;
+            padding: 0;
+            position: absolute;
+            left: -2px;
+            z-index: 99999;
+            height: 1px;
+            width: 1px;
+            overflow: hidden;
+            clip: rect(1px, 1px, 1px, 1px);
+    }
+
+    .top-nav-menu .sub-menu ul,
+    .top-nav-menu .children ul {
+            border-left: 0;
+            left: 100%;
+            top: 0;
+    }
+
+    ul.top-nav-menu ul a,
+    .top-nav-menu ul ul a {
+            color: white;
+            margin: 0;
+            width: 200px;
+    }
+
+    ul.top-nav-menu ul a:hover,
+    .top-nav-menu ul ul a:hover,
+    ul.top-nav-menu ul a:focus,
+    .top-nav-menu ul ul a:focus {
+            background-color: rgba(154,154,154,0.8);
+    }
+
+    ul.top-nav-menu li:hover > ul,
+    .top-nav-menu ul li:hover > ul,
+    ul.top-nav-menu .focus > ul,
+    .top-nav-menu .focus > ul {
+            clip: inherit;
+            overflow: inherit;
+            height: inherit;
+            width: inherit;
+    }
+
+    .top-nav-menu .current_page_item > a,
+    .top-nav-menu .current_page_ancestor > a,
+    .top-nav-menu .current-menu-item > a,
+    .top-nav-menu .current-menu-ancestor > a {
+            color: white;
+    }
+
+
+
+    /* Navbar */
+    .top-navbar {
+            background-color: rgb(59, 59, 58);        
+            font-family: 'Oswald';
+            border-bottom-style:solid;
+            margin: 0 auto;
+            width: 100%;
+            position:fixed !important;
+            z-index: 999;	
+            font-size: 16px;
+    }
+
+    .menu-top-header-menu-container {
+        float: right;
+    }
+    
+    .zva-logo-link {
+        line-height: 60px;
+        vertical-align: middle;
+    }
+
+    .zva-logo {
+        margin-right: 20px;
+    }
+
+    .blog-logo {
+        background-color: rgb(236, 236, 236);
+        padding: 2px;
+        border-radius: 5px;
+        height: auto;
+        width: 80px;
+    }
+
+    .sub-menu {
+        font-size: 14px;
+    }
+
+    .sub-menu a {
+        width: 240px!important;
+    }
+
+    .login-btn {
+        color: white;
+        background: rgb(61, 184, 207);
+        padding: 10px;
+        float: right;
+        margin-top: 6px;
+    }
+
+    .login-btn:hover {
+        color: white;
+        background-color: rgb(59, 59, 58);      
+    }
+
+    .login-btn:visited {
+        text-decoration: none;
+
+    }
+    
+    #zva-course {
+        min-height: 180px;
+        font-family: "Open Sans";
+        padding: 5px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    }
+    
+    #secondary aside.widget {
+        margin-bottom: 30px!important;
+    }
+    
+    .sidebar .zvapfa_desc {
+        display: none;
+    }
+    
+    .zvapfa_btn_container {
+        text-align: center;
+    }
+    
+    .zvapfa_title {
+        font-size: 80%;
+        font-weight:bold;
+    }
+    
+    
+    
+    .zvapfa_btn:hover {
+        color: white;
+    }
+    
+    .zvapfa_btn:visited {
+        color: white;
+    }
+    
+    .zvapfa_price {
+        text-align: center;
+        color: rgb(39, 168, 224);
+    }
+    
+    #masthead {
+        display: none;
+    }
+    
+    .zva-mobile-signup {
+        display: none;
+    }
+}
+
+@media (max-width: 59.6875em) {
+    
+	#navbar {
+
+		display: none;
+
+	}
+        
+        .zvapfa_class {
+            display: none;
+        }
+        
+        .sidebar {
+            min-height: 40px;
+        }
+        
+        header.entry-header {
+            padding-top: 20px;
+        }
+        
+        #masthead {
+            background-color: #3DB8CF;
+        }
+        
+        .zva-mobile-signup {
+            color: white;
+            background: #019B83;
+            padding: 10px;
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 20px;
+    }
+
+}
+/* END top header menu */
+
+/* content ad */
+.zva-content-course {
+    background-color: #efefef;
+    padding: 20px;
+    clear:both;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.zva-content-course img {
+    width: 100%;
+    height: auto;
+}
+
+.zva-content-course a {
+    text-decoration: none;
+    border-bottom: 0px;
+}
+
+.zva-content-course .zvapfa_btn {
+    text-decoration: none;
+    width: 300px;
+    height: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+.zva-content-course .zvapfa_title {
+    font-size: 24px;
+    font-weight:bold;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.zva-content-course .zvapfa_price {
+    display: none;
+}
+
+.zva-content-course .zvapfa_link {
+    margin-top: 24px;
+}
+
+.zva-content-course .zvapfa_desc {    
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.zvapfa_btn {
+        background-color: #F8B033;
+        color: white;
+        font-family: "open sans";
+        padding: 8px;
+        font-size: 14px;
+        display: inline-block;
+    }
+/* END content ad */

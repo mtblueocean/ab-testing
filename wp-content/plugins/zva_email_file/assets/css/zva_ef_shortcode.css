@@ -1,0 +1,89 @@
+.zva-ef-modal,
+.zva-ef-modal a.close-modal {
+	display: none;
+}
+
+.zva-ef-modal.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.zva-ef-modal > form {
+    margin: 0;
+}
+
+.zva-ef-modal h2.zva_ef_heading {
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.zva-ef-modal p {
+    font-size: 20px;
+    color: #222;
+    margin: 20px 0 10px;
+}
+
+.zva-ef-modal input[type="email"] {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    color: rgba(51, 51, 51, 0.7);
+    box-shadow: none;
+    padding: 5px 10px;
+}
+
+.zva-ef-modal input[type="email"]:focus {
+    background: none;
+}
+
+.zva-ef-modal .actions {
+    text-align: center;
+}
+
+.zva-ef-modal .actions input {
+    padding: 5px 10px !important;
+    color: #FFF;
+    width: 120px;
+    display: inline-block;
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+}
+
+.zva-ef-modal .actions .zva-ef-submit {
+    background: #009D84;
+}
+
+.zva-ef-modal .actions .zva-ef-close {
+    background-color: #949699;
+}
+
+#zva_ef_confirm_dialog .actions {
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+body.zva_ef_loading .zva_ef_loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #f3f3f3; /* Light grey */
+    border-top: 3px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    z-index: 9999;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

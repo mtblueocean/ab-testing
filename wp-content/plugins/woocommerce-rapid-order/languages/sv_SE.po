@@ -1,0 +1,417 @@
+# Copyright (C) 2016 woocommerce-rapid-order
+# This file is distributed under the same license as the woocommerce-rapid-order package.
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-rapid-order\n"
+"Report-Msgid-Bugs-To: http://www.nickv.codes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-01-19 08:43+0100\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/class-wc-rapid-order-cart.php:86,
+#: classes/class-wc-rapid-order-product.php:184,
+#: templates/underscore/product.php:42, woocommerce-rapid-order.php:111
+msgid "Don't Sub"
+msgstr "Byt ej / Valfri text"
+
+#: classes/class-wc-rapid-order-product.php:185,
+#: classes/class-wc-rapid-order-product.php:213
+msgid "checked"
+msgstr "vald"
+
+#: classes/class-wc-rapid-order-settings.php:23
+msgid "Rapid Order"
+msgstr "Rapid Order"
+
+#: classes/class-wc-rapid-order-settings.php:58
+msgid "User Visibility"
+msgstr "Synlighet"
+
+#: classes/class-wc-rapid-order-settings.php:60
+msgid ""
+"This section allows you to control which users the wholesale order form is "
+"shown to."
+msgstr ""
+"Denna inställning låter dig välja vilken roll som ska se Rapid Order "
+"formuläret"
+
+#: classes/class-wc-rapid-order-settings.php:69
+msgid "Who should see the wholesale form?"
+msgstr "Vilken roll ska Rapid Order vara synligt för?"
+
+#: classes/class-wc-rapid-order-settings.php:73
+msgid "Everyone"
+msgstr "Alla"
+
+#: classes/class-wc-rapid-order-settings.php:79
+msgid "Guests"
+msgstr "Gäster"
+
+#: classes/class-wc-rapid-order-settings.php:83
+msgid "Guests (non-logged in users)"
+msgstr "Gäster (icke-inloggad användare)"
+
+#: classes/class-wc-rapid-order-settings.php:92
+msgid "$role[name]"
+msgstr "$role [namn]"
+
+#: classes/class-wc-rapid-order-settings.php:119
+msgid "Additional Column"
+msgstr "Extra kolumn"
+
+#: classes/class-wc-rapid-order-settings.php:125
+msgid "Additional column"
+msgstr "Extra kolumn"
+
+#: classes/class-wc-rapid-order-settings.php:126
+msgid ""
+"This will present an additional column in the list with a checkbox for all "
+"items in your store. Use this if you need some additional basic product "
+"configuration."
+msgstr ""
+"Detta kommer att presentera ytterligare en kolumn i listan med en kryssrutan "
+"för alla objekt i din butik. Använd detta om du behöver några ytterligare "
+"grundläggande produktkonfigurationer."
+
+#: classes/class-wc-rapid-order-settings.php:130
+msgid "Show the additional column?"
+msgstr "Visa extrakolumnen?"
+
+#: classes/class-wc-rapid-order-settings.php:134
+msgid "Additional column text"
+msgstr "Rubrik för extrakolumnen"
+
+#: classes/class-wc-rapid-order-settings.php:135
+msgid "This is the header text that displays above the additional column."
+msgstr "Detta är heder texten som visas ovanför den extra kolumnen."
+
+#: classes/class-wc-rapid-order-settings.php:141
+msgid "Help text"
+msgstr "Tool Tip"
+
+#: classes/class-wc-rapid-order-settings.php:142
+msgid ""
+"This is the help text for the additional column. It will display when the "
+"user hovers over the questions mark."
+msgstr ""
+"Detta är hjälptexten för extra kolumnen. Den visas när användaren för "
+"muspekaren över frågetecknet."
+
+#: classes/class-wc-rapid-order-settings.php:150
+msgid "Display Options"
+msgstr "Visningsalternativ"
+
+#: classes/class-wc-rapid-order-settings.php:152
+msgid "Configure how the wholesale list is displayed."
+msgstr "Konfigurera hur Rapid order formuläret visas."
+
+#: classes/class-wc-rapid-order-settings.php:157
+msgid "Search bar"
+msgstr "Sökfält"
+
+#: classes/class-wc-rapid-order-settings.php:158
+msgid "Check this to show a search bar within the list"
+msgstr "Markera för att visa ett sökfältet i listan"
+
+#: classes/class-wc-rapid-order-settings.php:162
+msgid "Show the search bar?"
+msgstr "Visa sökfältet?"
+
+#: classes/class-wc-rapid-order-settings.php:166
+msgid "Table header"
+msgstr "Tabellens sidhuvud"
+
+#: classes/class-wc-rapid-order-settings.php:170
+msgid "Make the table header sticky?"
+msgstr "Gör formulärets sidhuvud ”Sticky”?"
+
+#: classes/class-wc-rapid-order-settings.php:174
+msgid "Link title"
+msgstr "Länktitel"
+
+#: classes/class-wc-rapid-order-settings.php:178
+msgid "Should we link the product title to it's product page?"
+msgstr "Ska vi länka produkt titeln till sin produktsida?"
+
+#: classes/class-wc-rapid-order-settings.php:182
+msgid "Sale Badge"
+msgstr "Rea ikon"
+
+#: classes/class-wc-rapid-order-settings.php:186
+msgid "Show the sale badge for on sale items?"
+msgstr "Visa Rea ikonen för kampanjprodukter?"
+
+#: classes/class-wc-rapid-order-settings.php:190
+msgid "Featured Badge"
+msgstr "Utvald ikon"
+
+#: classes/class-wc-rapid-order-settings.php:194
+msgid "Show the featured badge for featured items?"
+msgstr "Visa ikonen för utvalda produkter?"
+
+#: classes/class-wc-rapid-order-settings.php:198
+msgid "Use Rapid Order increment button css"
+msgstr "Använd Rapid Orders CSS för plus och minus knapparna"
+
+#: classes/class-wc-rapid-order-settings.php:202
+msgid ""
+"When using the Quantity Increment Buttons for WooCommerce plugin we'll "
+"automatically load some css to make the buttons look nicer. Uncheck this if "
+"your using your own custom css for the increment buttons."
+msgstr ""
+"När du använder pluginet Quantity Increment Buttons for WooCommerce läser vi "
+"in några rader css så att knapparna ser trevligare ut. Avmarkera detta om du "
+"använder din egna anpassade css för knapparna."
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:27,
+#: lib/am/admin/class-wcro-api-manager-menu.php:27
+msgid "WCRO_API_Manager->ame_settings_menu_title"
+msgstr ""
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:36
+msgid "WCRO_API_Manager->ame_menu_tab_activation_title"
+msgstr ""
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:36
+msgid "WCRO_API_Manager->ame_menu_tab_deactivation_title"
+msgstr ""
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:42
+msgid "WCRO_API_Manager->ame_settings_title"
+msgstr ""
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:58,
+#: lib/am/admin/class-wcro-api-manager-menu.php:62
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:77
+msgid "API License Activation"
+msgstr "Aktivera API-licens"
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:78
+msgid "API License Key Status"
+msgstr "Status för API-licens"
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:79
+msgid "API License Key"
+msgstr "API Licensnyckel"
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:80
+msgid "API License email"
+msgstr "API-licens email"
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:84
+msgid "API License Deactivation"
+msgstr "API Licens Deaktivering"
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:85
+msgid "Deactivate API License Key"
+msgstr "Reaktivera API Licensnyckel"
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:165
+msgid "Plugin activated. "
+msgstr "Plugin aktiverat."
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:171
+msgid "Connection failed to the License Key API server. Try again later."
+msgstr "Anslutningen till licensservarn misslyckades. Försök igen lite senare."
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:258
+msgid ""
+"The license could not be deactivated. Use the License Deactivation tab to "
+"manually deactivate the license before activating a new license."
+msgstr ""
+"Licensen kunde inte aktiveras. Prova att reaktivera licensen under "
+"deaktiveringsfliken för att kunna aktivera en ny."
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:297
+msgid "Plugin license deactivated. "
+msgstr "Licensnyckel avaktiverat"
+
+#: lib/am/admin/class-wcro-api-manager-menu.php:365
+msgid "Deactivates an API License Key so it can be used on another blog."
+msgstr ""
+"Reaktiverar en licensnyckel så att den kan användas på en annan installation."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:369
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Licensnyckeln för %s har löpt ut. Du kan återaktivera eller köpa en "
+"licensnyckel från <a href=”%s” target=”_blank”>ditt konto</a>."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:380
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Prenumerationen för %s är spärrad. Du kan återaktivera prenumerationen från "
+"<a href=”%s” target=”_blank”>ditt konto</a>."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:391
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Prenumerationen för %s har avslutats. Du kan förnya prenumerationen från <a "
+"href=”%s” target=”_blank”>ditt konto</a>. En ny licensnyckel kommer att "
+"skickas till dig efter din beställning har slutförts."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:402
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Prenumerationen för %s har löpt ut. Du kan återaktivera prenumerationen från "
+"<a href=”%s” target=”_blank”>ditt konto</a>."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:413
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Prenumerationen för %s har stängts av. Du kan återaktivera prenumerationen "
+"från <a href=”%s” target=”_blank”>ditt konto</a>."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:424
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Prenumerationen för %s är fortfarande väntande. Du kan kontrollera status "
+"för prenumerationen från <a href=”%s” target=”_blank”>ditt konto</a>."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:435
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"Prenumerationen för %s har placerats i papperskorgen och kommer snart tas "
+"bort. Du kan köpa en ny prenumeration från <a href=”%s” target=”_blank”>ditt "
+"konto</a>."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:446
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"En prenumeration för% s kunde inte hittas. Du kan köpa ett abonnemang från "
+"<a href=”%s” target=”_blank”>ditt konto</a> ."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:457
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+"En licensnyckel för %s kunde inte hittas. Kanske glömde du ange en "
+"licensnyckel när du ställde in %s, eller så var nyckeln inaktiverar i ditt "
+"konto. Du kan återaktivera eller köpa en licensnyckel från <a href=”%s” "
+"target=”_blank”>ditt konto</a>."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:468
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Nedladdningsrättigheterna för %s har återkallats, möjligen på grund av att "
+"licensnyckeln eller prenumerationen gått ut. Du kan återaktivera eller köpa "
+"en ny licensnyckel från <a href=”%s” target=”_blank”>ditt konto</a>."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:479
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+"%s har inte aktiverats. Gå till inställningssidan och ange licensnyckeln och "
+"licens e-posten för att aktivera %s."
+
+#: lib/am/classes/class-wcro-api-manager-update-api-check.php:490
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Du har ändrat prenumerationen för %s, så måste du ange din nya API "
+"licensnyckel på inställningssidan. Licensnyckeln borde ha kommit till din "
+"mail. Om inte du kan hitta den genom att logga in på <a href=”%s” "
+"target=”_blank”>ditt konto</a>."
+
+#: lib/class-wcro-api-manager.php:152
+msgid "License Activation"
+msgstr "Aktivera licencs"
+
+#: lib/class-wcro-api-manager.php:153
+msgid "License Deactivation"
+msgstr "Avaktivera licens"
+
+#: lib/class-wcro-api-manager.php:363
+msgid ""
+"The Rapid Order API License Key has not been activated, so the plugin is "
+"inactive! %sClick here%s to activate the license key and the plugin."
+msgstr ""
+"Licensnyckel för Rapid Order har inte aktiveras så tillägget är inaktivt. "
+"%Klicka här%s för att aktivera licensnyckeln och tillägget."
+
+#: lib/class-wcro-api-manager.php:382
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+"<b>Varning!</b> Du blockera externa förfrågningar vilket innebär att du inte "
+"kommer att kunna få %s uppdateringar. Lägg till %s till %s."
+
+#: templates/underscore/product.php:8
+msgid "Sale"
+msgstr "Rea"
+
+#: templates/underscore/product.php:25
+msgid "Featured"
+msgstr "Utvald"
+
+#: templates/underscore/product.php:49
+msgid "Cart Updated"
+msgstr "Kundvagn uppdaterad"
+
+#: templates/woocommerce/loop/loop-end.php:16
+msgid "Review Cart"
+msgstr "Granska varukorg"
+
+#: templates/woocommerce/loop/loop-start.php:20
+msgid "Qty"
+msgstr "Antal"
+
+#: templates/woocommerce/loop/loop-start.php:30
+msgid "Total"
+msgstr "Summa"
+
+#: templates/woocommerce/loop/loop-start.php:41
+msgid "Loading Products"
+msgstr "Laddar Fler produkter …"
+
+#: woocommerce-rapid-order.php:304
+msgid "Subtotal"
+msgstr "Delsumma"

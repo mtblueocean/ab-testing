@@ -1,0 +1,35 @@
+.entry-list-table, td, th {
+  border: 1px solid #CCC;
+}
+.widefat {
+	width: 100%;
+}
+.ss-list-width {
+	min-width: 10%;
+}
+.ss-form-width {
+	width: 100%;
+}
+.ss-th-width {
+	width: 25%;
+}
+.ss-field-width {
+	width: 100%;
+}
+.border-collapse {
+	border-collapse: collapse;
+}
+.text-center {
+	text-align: center !important;
+}
+.blue-btn {
+	border: none;
+  background: none;
+  color: #0073aa;
+}
+.blue-btn:hover {
+	cursor: pointer;
+}
+.blue-btn:focus {
+	outline: none;
+}

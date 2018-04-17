@@ -1,0 +1,43 @@
+form.zva-ce-form {
+    width: 50%;
+}
+
+form.zva-ce-form h2 {
+    text-align: center;
+}
+
+form.zva-ce-form .form-table {
+    width: 100%;
+}
+
+form.zva-ce-form .form-table,
+form.zva-ce-form .form-table tr,
+form.zva-ce-form .form-table td,
+form.zva-ce-form .form-table th {
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+}
+
+form.zva-ce-form .form-table th {
+    text-align: center;
+    padding: 5px;
+}
+
+form.zva-ce-form .form-table td {
+    padding: 1px;
+}
+
+form.zva-ce-form .form-table td.heading {
+    padding: 15px;
+    font-size: 18px;
+}
+
+form.zva-ce-form .form-table td input {
+    width: 100%;
+    border: none;
+}
+
+form.zva-ce-form table.business-info th {
+    width: 120px;
+    text-align: left;
+}
